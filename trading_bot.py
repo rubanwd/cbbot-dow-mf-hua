@@ -85,7 +85,7 @@ class TradingBot:
                 qty=self.quantity,
                 current_price=h1_df['close'].iloc[-1],
                 leverage=10,  # Set leverage dynamically if needed
-                stop_loss=stop_loss,
+                # stop_loss=stop_loss,
                 take_profit=take_profit
             )
 
